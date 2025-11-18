@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanawary Groceries Delivery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #7f2fff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #7f2fff;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SANAWARY</div>
+    <p>Fresh Groceries Delivered Across Dodoma</p>
+  </header>
+
+  <section class="section">
+    <h2>Order Fresh Groceries Easily</h2>
+    <p>Sanawary brings you fresh products from Sabasaba, Majengo, Machinga Market, and local supermarkets straight to your home.</p>
+    <a class="btn" href="#">Order Now</a>
+  </section>
+
+  <section class="section">
+    <h2>Why Choose Sanawary?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Fast Delivery</h3>
+        <p>We deliver groceries to your doorstep within minutes.</p>
+      </div>
+      <div class="card">
+        <h3>Fresh Products</h3>
+        <p>We pick the best quality produce from trusted vendors.</p>
+      </div>
+      <div class="card">
+        <h3>Pay Easily</h3>
+        <p>Pay via TigoPesa, M-Pesa, Airtel Money, or Cash on Delivery.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> +255 717 780 083</p>
+    <p><strong>WhatsApp:</strong> Click order button above</p>
+  </section>
+</body>
+</html>
